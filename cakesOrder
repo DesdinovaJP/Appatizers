@@ -14,35 +14,99 @@
             <h1>Celebration Cakes</h1>
             <section class="columns-desktop">
                 <div class="pie">
-                    <img src="images/apple-pie.png" alt="Apple Pie" />
+                    <img src="images/biscoff.jpg" alt="biscoff" />
                     <div class="columns">
-                        <div class="title">Apple Pie</div>
-                        <div class="price">$12.95</div>
+                        <div class="title">Biscoff cheesecake</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">A perfect pair between a smooth, light cheesecake and caramelised shortcrust biscuits</p>
+                <button data-order="Biscoff">Order</button><!--data-order="apple-pie"-->
                 </div>
-                <p class="desc">Our famous apple pie</p>
-                <button data-order="apple-pie">Order</button>
-                </div>
-                
+
                 <div class="pie">
-                    <img src="images/cherry-pie.png" alt="Cherry Pie" />
+                    <img src="images/chocolateBiscuit.jpg" alt="chocolateBiscuit" />
                     <div class="columns">
-                        <div class="title">Cherry Pie</div>
-                        <div class="price">$15.95</div>
+                        <div class="title">Chocolate Biscuit</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Digestive biscuits and Ganache</p>
+                <button data-order="chocolateBiscuit">Order</button>
                 </div>
-                <p class="desc">A summer classic!</p>
-                <button data-order="cherry-pie">Order</button>
-                </div>    
+
+                <div class="pie">
+                    <img src="images/blackForest.jpg" alt="blackForest" />
+                    <div class="columns">
+                        <div class="title">Black Forest Gateau</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Chocolate sponge layered with chocolate mousse, fresh cream and cherries</p>
+                <button data-order="blackForest">Order</button>
+                </div>
+
+                <div class="pie">
+                    <img src="images/chocoDiplomat.jpg" alt="chocoDiplomat" />
+                    <div class="columns">
+                        <div class="title">Choco Diplomat</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Moist chocolate sponge, ganache, charlotte cream and raspberry</p>
+                <button data-order="chocoDiplomat">Order</button>
+                </div>
+
+                <div class="pie">
+                    <img src="images/chocoSupreme.jpg" alt="chocoSupreme" />
+                    <div class="columns">
+                        <div class="title">Choco Supreme</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Chocolate sponge layered with chocolate mousse and covered with Belgian chocolate</p>
+                <button data-order="chocoSupreme">Order</button>
+                </div>
+
+                <div class="pie">
+                    <img src="images/coffeeCake.png" alt="coffeeCake" />
+                    <div class="columns">
+                        <div class="title">Coffee Cake</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Chocolate sponge layered with coffee and vanilla cream and topped with chocolate sauce</p>
+                <button data-order="coffeeCake">Order</button>
+                </div>
+
+                <div class="pie">
+                    <img src="images/fruitDiplomat.png" alt="fruitDiplomat" />
+                    <div class="columns">
+                        <div class="title">Fruit Diplomat</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Vanilla sponge, mixed fruits, Chantilly cream</p>
+                <button data-order="fruitDiplomat">Order</button>
+                </div>
+
+                <div class="pie">
+                    <img src="images/oreo.png" alt="oreo" />
+                    <div class="columns">
+                        <div class="title">Oreo</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Digestive and Oreo biscuit base, smooth fresh cream and cream cheese, Oreo biscuit, topped with Chantilly cream</p>
+                <button data-order="oreo">Order</button>
+                </div>
+
+                <div class="pie">
+                    <img src="images/redVelvet.jpg" alt="redVelvet" />
+                    <div class="columns">
+                        <div class="title">Red Velvet</div>
+                        <div class="price">updateprice</div>
+                    </div>
+                <p class="desc">Red Velvet sponge layered with cream cheese. Mascarpone filling</p>
+                <button data-order="redVelvet">Order</button>
+                </div>
+
             </section>
         </article>
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="pies.html">Pies</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
     </footer>
 </body>
 <script>
@@ -64,7 +128,7 @@
 
                 localStorage.setItem("order", JSON.stringify(order));
 
-                const url = window.location.href.replace("pies.html", "order.html");
+                const url = window.location.href.replace("cakesOrder.html", "order.html");
                 window.location.href = url;
 
             });
