@@ -44,14 +44,14 @@ article
         display: flex;
     }
 
-    .colums-desktop
+    .columns-desktop
     {
         display: flex;
     }
 }
 
 /*Cakes*/
-.pie
+.cake
 {
     width: 200px;
     padding: 10px;
@@ -60,32 +60,33 @@ article
     border: solid 1px #ccc;
 }
 
-.pie img 
+.cake img 
 {
-    width: 100%
+    width: 180px;
+    height: 150px;
 }
 
-.pie .title 
+.cake .title 
 {
     font-weight: bold;
 }
 
-.pie .columns
+.cake .columns
 {
     width: 100%
 }
 
-.pie .price
+.cake .price
 {
     text-align: right;
 }
 
-.pie .columns div
+.cake .columns div
 {
     width: 50%;
 }
 
-.pie button
+.cake button
 {
     background-color: #B59775;
     padding: 10px;
